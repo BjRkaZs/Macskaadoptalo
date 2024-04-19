@@ -22,3 +22,6 @@ togglePassword2.addEventListener("click", () => {
 });
 
 
+// email validator
+
+

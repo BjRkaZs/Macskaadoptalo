@@ -14,3 +14,5 @@ const togglePassword3 = document.getElementById("togglePassword3");
 togglePassword3.addEventListener("click", ()=> {
     togglePasswordVisibility(passwordInput3, togglePassword3);
 });
+
+// email validator
