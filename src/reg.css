@@ -1,4 +1,4 @@
-.belepes{
+.regisztralas{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,7 +7,7 @@
 form{
     position: relative;
     width: 430px;
-    height: 480px;
+    height: 800px;
     background-color: beige;
     border-radius: 16px;
     display: flex;
@@ -38,7 +38,7 @@ h1{
 }
 .gomb{
     width: 300px;
-    margin: 30px;
+    justify-content: center;
 }
 button{
     width: 150px;
