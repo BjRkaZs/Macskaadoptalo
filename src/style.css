@@ -13,7 +13,34 @@
     font-family: 'Comfortaa';
 }
 
-.navbar{
-    
-    
+body{
+    background-color: #FC6C85;
+}
+.eyes{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.eye{
+    width: 200px;
+    height: 120px;
+    background: #e1f7ed;
+    margin: 40%;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+.ball{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 10px solid #20B2AA;
 }
