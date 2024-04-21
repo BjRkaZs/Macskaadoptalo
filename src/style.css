@@ -16,31 +16,29 @@
 body{
     background-color: #FC6C85;
 }
-.eyes{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+header{
     width: 100%;
-    text-align: center;
+    height: 20vh;
 }
-.eye{
-    width: 200px;
-    height: 120px;
-    background: #e1f7ed;
-    margin: 40%;
-    border-radius: 50%;
-    display: inline-block;
-    position: relative;
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 130px;
+}
+nav ul{
+    list-style: none;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 1s;
 }
-.ball{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    border: 10px solid #20B2AA;
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
