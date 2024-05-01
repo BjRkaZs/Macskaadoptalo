@@ -1,5 +1,18 @@
 {
   "dependencies": {
     "bootstrap-icons": "^1.11.3"
-  }
+  },
+  "name": "macskaadoptalo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --config bs-config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

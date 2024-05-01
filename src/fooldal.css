@@ -1,15 +1,22 @@
 h2{
-     font-size: 50px;
+     font-size: 150px;
      text-align: center;
-     color: white;
-
-     background-image: url(img/cat2.jpg);
+     color: rgb(255, 255, 255, 0.9);
+     background-image: url(img/cat3.png);
      background-size: 100%;
      background-repeat: no-repeat;
      background-attachment: fixed;
-     block-size: 300px;
-     
+     block-size: 400px;
+     background-size: 100%;
+     font-family: 'Bebas Neue';
+     background-color: rgb(0, 0, 0, 0.2);
+
 }
 img{
-    width: 100%;
+     border-radius: 25px;
+     width: 350px;
+
+}
+.kep span p{
+     display: inline;
 }

@@ -1,3 +1,15 @@
+function ValidateEmail(){
+    var mailFormat = /^[a-zA-Z0-9-_]+@[a-zA-Z0-9]+\.[a-zA-Z0-9]+$/
+    if(inputText.value.match(mailFormat)){
+        alert("Érvényes email cím");
+        return true;
+    }
+    else{
+        alert("Érvényetelen email cím")
+        return false;
+    }
+
+}
 const togglePasswordVisibility = (inputElement, toggleElement) => {
     if (inputElement.type === "password") {
         inputElement.type = "text";
@@ -16,3 +28,4 @@ togglePassword3.addEventListener("click", ()=> {
 });
 
 // email validator
+

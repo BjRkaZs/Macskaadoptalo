@@ -12,18 +12,33 @@
     box-sizing: border-box;
     font-family: 'Comfortaa';
 }
-
 body{
-    background-color: #FC6C85;
+    background-color: rgb(228, 208, 245);
 }
 header{
     width: 100%;
-    height: 20vh;
+    height: 11.5vh;
+}
+nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(144, 143, 233, 0.384);
+}
+.logo{
+    display: inline;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: bolder;
 }
 .navbar{
     position: fixed;
     width: 100%;
-    height: 130px;
+    height: 100px;
 }
 nav ul{
     list-style: none;
@@ -32,14 +47,29 @@ nav ul{
     padding: 0;
     text-align: center;
     transition: 1s;
+    float: right;
 }
 nav ul li{
     display: inline-block;
-    padding: 20px;
+    padding: 10px;
 }
 nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: #EC5578;
+    color: white;
+    display: flex;
+
+}
+nav ul li a:link{
+    color: #FC6C85;
+}
+.navbar-brand{
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    background: rgb(0,0,0,0.6);
+    color: whitesmoke;
 }
